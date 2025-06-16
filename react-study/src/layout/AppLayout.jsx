@@ -9,6 +9,7 @@ const AppLayout = () => {
               <Link to="/state">useState</Link>
               <Link to="/ref">useRef</Link>
               <Link to="/effect">useEffect</Link>
+              <Link to="/effect-cleanup">useEffect-cleanup</Link>
             </header>
 
           <div className="px-2 py-4">
