@@ -8,6 +8,7 @@ const AppLayout = () => {
               <p className="text-3xl">React-study</p>
               <Link to="/state">useState</Link>
               <Link to="/ref">useRef</Link>
+              <Link to="/ref-dom">useRef-DOM</Link>
               <Link to="/effect">useEffect</Link>
               <Link to="/effect-cleanup">useEffect-cleanup</Link>
             </header>
