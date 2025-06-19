@@ -10,6 +10,8 @@ import Ref from "./views/Ref.jsx";
 import Effect from "./views/Effect.jsx";
 import EffectCleanUp from "./views/EffectCleanUp.jsx";
 import RefDOM from "./views/RefDOM.jsx";
+import Context from "./views/Context.jsx";
+import ContextProps from "./views/ContextProps.jsx";
 
 function App() {
 
@@ -22,6 +24,8 @@ function App() {
           <Route path="effect" element={<Effect/>}></Route>
           <Route path="effect-cleanup" element={<EffectCleanUp/>}></Route>
           <Route path="ref-dom" element={<RefDOM/>}></Route>
+          <Route path="context" element={<Context/>}></Route>
+          <Route path="context-props" element={<ContextProps/>}></Route>
         </Route>
       </Routes>
     </Router>
