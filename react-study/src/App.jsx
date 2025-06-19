@@ -12,6 +12,7 @@ import EffectCleanUp from "./views/EffectCleanUp.jsx";
 import RefDOM from "./views/RefDOM.jsx";
 import Context from "./views/Context.jsx";
 import ContextProps from "./views/ContextProps.jsx";
+import Memo from "./views/Memo.jsx";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
           <Route path="ref-dom" element={<RefDOM/>}></Route>
           <Route path="context" element={<Context/>}></Route>
           <Route path="context-props" element={<ContextProps/>}></Route>
+          <Route path="memo" element={<Memo/>}></Route>
         </Route>
       </Routes>
     </Router>
