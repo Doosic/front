@@ -13,6 +13,7 @@ import RefDOM from "./views/RefDOM.jsx";
 import Context from "./views/Context.jsx";
 import ContextProps from "./views/ContextProps.jsx";
 import Memo from "./views/Memo.jsx";
+import Memo2 from "./views/Memo2.jsx";
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
           <Route path="context" element={<Context/>}></Route>
           <Route path="context-props" element={<ContextProps/>}></Route>
           <Route path="memo" element={<Memo/>}></Route>
+          <Route path="memo-2" element={<Memo2/>}></Route>
         </Route>
       </Routes>
     </Router>
