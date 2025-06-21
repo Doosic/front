@@ -14,6 +14,8 @@ import Context from "./views/Context.jsx";
 import ContextProps from "./views/ContextProps.jsx";
 import Memo from "./views/Memo.jsx";
 import Memo2 from "./views/Memo2.jsx";
+import Callback from "./views/Callback.jsx";
+import Callback2 from "./views/Callback2.jsx";
 
 function App() {
 
@@ -30,6 +32,8 @@ function App() {
           <Route path="context-props" element={<ContextProps/>}></Route>
           <Route path="memo" element={<Memo/>}></Route>
           <Route path="memo-2" element={<Memo2/>}></Route>
+          <Route path="callback" element={<Callback/>}></Route>
+          <Route path="callback-2" element={<Callback2/>}></Route>
         </Route>
       </Routes>
     </Router>

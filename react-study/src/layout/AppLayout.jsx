@@ -15,6 +15,8 @@ const AppLayout = () => {
               <Link to="/context-props">context-props</Link>
               <Link to="/memo">Memo</Link>
               <Link to="/memo-2">Memo2</Link>
+              <Link to="/callback">Callback</Link>
+              <Link to="/callback-2">Callback2</Link>
             </header>
 
           <div className="px-2 py-4">
