@@ -12,7 +12,7 @@ const Callback = () => {
   }*/
 
   // 보여주는 값, 즉 return 해주는 값은 memoize 할 때의 숫자를 기준으로 한다.
-  // number의 값이 변할 때 만, 초기화되도록 [number] 설정
+  // 의존성 배열 안에있는 [number] 의 값이 변할 때 만 초기화된다.
   const someFunction = useCallback(() => {
     console.log(`someFunc: number ${number}`)
     return;
