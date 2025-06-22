@@ -19,6 +19,7 @@ const AppLayout = () => {
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/callback">Callback</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/callback-2">Callback2</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/reducer">Reducer</Link>
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/reducer-2">Reducer2</Link>
               </div>
             </header>
 
