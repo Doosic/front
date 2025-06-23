@@ -18,6 +18,7 @@ import Callback from "./views/Callback.jsx";
 import Callback2 from "./views/Callback2.jsx";
 import Reducer from "./views/Reducer.jsx";
 import Reducer2 from "./views/Reducer2.jsx";
+import MemoOptimization from "./views/MemoOptimization.jsx";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
           <Route path="callback-2" element={<Callback2/>}></Route>
           <Route path="reducer" element={<Reducer/>}></Route>
           <Route path="reducer-2" element={<Reducer2/>}></Route>
+          <Route path="memo-opt" element={<MemoOptimization/>}></Route>
         </Route>
       </Routes>
     </Router>

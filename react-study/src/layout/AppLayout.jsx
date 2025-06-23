@@ -21,6 +21,9 @@ const AppLayout = () => {
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/reducer">Reducer</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/reducer-2">Reducer2</Link>
               </div>
+              <div className="flex space-x-2">
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/memo-opt">memo-otp</Link>
+              </div>
             </header>
 
           <div className="px-2 py-4">
