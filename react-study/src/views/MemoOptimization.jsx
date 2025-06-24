@@ -33,6 +33,7 @@ const MemoOptimization = () => {
 
       {/*
         MemoOptChild 컴포넌트는 memo를 적용하여, props가 업데이트 될 때 재렌더링 된다.
+        ** useMemo는 props에 의존한다 **
 
         - 주의(useMemo 사용시, 원시타입: 값 변경 체크, 객체: 참조값 체크)
         우리가 props로 전달하는 변수가 원시타입이 아닌, 객체라면 매번 새롭게 렌더링된다.
