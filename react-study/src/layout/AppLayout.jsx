@@ -23,6 +23,8 @@ const AppLayout = () => {
               </div>
               <div className="flex space-x-2">
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/memo-opt">memo-otp</Link>
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/custom-hooks">custom-hooks</Link>
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/custom-hooks-2">custom-hooks-2</Link>
               </div>
             </header>
 
