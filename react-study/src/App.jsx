@@ -21,6 +21,7 @@ import Reducer2 from "./views/Reducer2.jsx";
 import MemoOptimization from "./views/MemoOptimization.jsx";
 import CustomHooks from "./views/CustomHooks.jsx";
 import CustomHooks2 from "./views/CustomHooks2.jsx";
+import Id from "./views/Id.jsx"
 
 function App() {
 
@@ -44,6 +45,7 @@ function App() {
           <Route path="memo-opt" element={<MemoOptimization/>}></Route>
           <Route path="custom-hooks" element={<CustomHooks/>}></Route>
           <Route path="custom-hooks-2" element={<CustomHooks2/>}></Route>
+          <Route path="id" element={<Id/>}></Route>
         </Route>
       </Routes>
     </Router>

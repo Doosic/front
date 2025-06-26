@@ -1,5 +1,4 @@
 // fetch api를 이용해 데이터를 호출하는 Hook
-import {useEffect, useState} from "react";
 import {useFetch} from "../hooks/useFetch.js";
 
 const baseUrl = "https://jsonplaceholder.typicode.com"
