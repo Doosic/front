@@ -26,6 +26,8 @@ const AppLayout = () => {
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/custom-hooks">custom-hooks</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/custom-hooks-2">custom-hooks-2</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/id">id</Link>
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/layout-effect">layout-effect</Link>
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/layout-effect-2">layout-effect-2</Link>
               </div>
             </header>
 

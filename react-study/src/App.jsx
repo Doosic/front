@@ -22,6 +22,8 @@ import MemoOptimization from "./views/MemoOptimization.jsx";
 import CustomHooks from "./views/CustomHooks.jsx";
 import CustomHooks2 from "./views/CustomHooks2.jsx";
 import Id from "./views/Id.jsx"
+import LayoutEffect from "./views/LayoutEffect.jsx";
+import LayoutEffect2 from "./views/LayoutEffect2.jsx";
 
 function App() {
 
@@ -46,6 +48,8 @@ function App() {
           <Route path="custom-hooks" element={<CustomHooks/>}></Route>
           <Route path="custom-hooks-2" element={<CustomHooks2/>}></Route>
           <Route path="id" element={<Id/>}></Route>
+          <Route path="layout-effect" element={<LayoutEffect/>}></Route>
+          <Route path="layout-effect-2" element={<LayoutEffect2/>}></Route>
         </Route>
       </Routes>
     </Router>
