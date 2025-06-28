@@ -24,6 +24,7 @@ import CustomHooks2 from "./views/CustomHooks2.jsx";
 import Id from "./views/Id.jsx"
 import LayoutEffect from "./views/LayoutEffect.jsx";
 import LayoutEffect2 from "./views/LayoutEffect2.jsx";
+import Debounce from "./views/Debounce.jsx";
 
 function App() {
 
@@ -50,6 +51,7 @@ function App() {
           <Route path="id" element={<Id/>}></Route>
           <Route path="layout-effect" element={<LayoutEffect/>}></Route>
           <Route path="layout-effect-2" element={<LayoutEffect2/>}></Route>
+          <Route path="debounce" element={<Debounce/>}></Route>
         </Route>
       </Routes>
     </Router>
