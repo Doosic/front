@@ -25,6 +25,7 @@ import Id from "./views/Id.jsx"
 import LayoutEffect from "./views/LayoutEffect.jsx";
 import LayoutEffect2 from "./views/LayoutEffect2.jsx";
 import Debounce from "./views/Debounce.jsx";
+import Throttle from "./views/Throttle.jsx";
 
 function App() {
 
@@ -52,6 +53,7 @@ function App() {
           <Route path="layout-effect" element={<LayoutEffect/>}></Route>
           <Route path="layout-effect-2" element={<LayoutEffect2/>}></Route>
           <Route path="debounce" element={<Debounce/>}></Route>
+          <Route path="throttle" element={<Throttle/>}></Route>
         </Route>
       </Routes>
     </Router>

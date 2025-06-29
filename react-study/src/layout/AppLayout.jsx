@@ -29,6 +29,7 @@ const AppLayout = () => {
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/layout-effect">layout-effect</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/layout-effect-2">layout-effect-2</Link>
                 <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/debounce">debounce</Link>
+                <Link className="border border-zinc-400 rounded-xl px-1 py-1" to="/throttle">throttle</Link>
               </div>
             </header>
 
